@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+pandas
+motor
+huggingface_hub
