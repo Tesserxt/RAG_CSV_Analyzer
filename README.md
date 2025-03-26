@@ -103,6 +103,7 @@ DELETE /
 
 ## Deployment
 
+Note-*Though main.py handles this part but you can manually use this in case of failure*
 To deploy the FastAPI application using `uvicorn`, run:
 
 ```sh
