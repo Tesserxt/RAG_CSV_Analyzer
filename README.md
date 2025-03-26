@@ -1,7 +1,5 @@
 # RAG_CSV_Analyzer
 
-# FastAPI CSV Query API
-
 This project is a FastAPI-based service that allows users to upload, store, query, and analyze CSV files using MongoDB and a Hugging Face LLM for enhanced data analysis.
 
 ## Features
@@ -39,7 +37,12 @@ pip install -r requirements.txt
 - Ensure MongoDB is running
 - Update the connection URL in `database.py`
 
-### 5️⃣ Run the API Server
+### 5️⃣ Set your huggingFace api_key
+
+- Ensure you have you huggingface api key
+- Create api key or read token from your huggingface profile
+
+### 6️⃣ Run the API Server
 
 ```sh
 python main.py
