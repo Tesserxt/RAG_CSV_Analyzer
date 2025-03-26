@@ -15,8 +15,8 @@ This project is a FastAPI-based service that allows users to upload, store, quer
 ### 1️⃣ Clone the Repository
 
 ```sh
-git clone <repo-url>
-cd <project-folder>
+git clone https://github.com/Tesserxt/.git
+cd RAG_CSV_Analyzer
 ```
 
 ### 2️⃣ Create a Virtual Environment (Recommended)
