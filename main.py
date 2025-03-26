@@ -1,7 +1,8 @@
-from fastapi import FastAPI
+import uvicorn
+from csv_query_api import CSVQueryAPI
 
-app = FastAPI()
+api = CSVQueryAPI()
+app = api.app
 
-@app.get("/")
-def read_root():
-    return {"message": "API is running!"}
+if __name__ == "__main__":
+    uvicorn.run(app, host="0.0.0.0", port=8000)
