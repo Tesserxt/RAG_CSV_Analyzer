@@ -37,10 +37,12 @@ pip install -r requirements.txt
 - Ensure MongoDB is running
 - Update the connection URL in `database.py`
 
-### 5️⃣ Set your huggingFace api_key
+### 5️⃣ Set your huggingFace api_key and MongoDb cluster
 
 - Ensure you have you huggingface api key
 - Create api key or read token from your huggingface profile
+
+- Use mongodb atlas cluster or local mongosh
 
 ### 6️⃣ Run the API Server
 
